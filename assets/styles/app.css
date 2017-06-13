@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    background: #f7bc95 url('../images/bg.jpg') no-repeat center;
+    background-size: cover;
+    color: #133;
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    line-height: 1.25;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1, h2 {
+    margin: 0 0 1em;
+    font-weight: normal;
+}
+
+a {
+    background-color: transparent;
+    color: #133;
+    -webkit-text-decoration-skip: objects;
+}
+
+.container {
+    padding: 50px;
+}
+
+p {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    margin: 0;
+}
+
+.photo-credit {
+    display: none;
+    right: 50px;
+    left: auto;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 24px;
+    }
+
+    .photo-credit {
+        display: block;
+    }
+}
